@@ -8,14 +8,14 @@
 " Last Updated: Apr 2018
 " Note:         Zip it up and zip it out.
 
+let g:colors_name   = "vimhardaway"
+let g:airline_theme = "vimhardaway"
+
 set background=dark
 highlight clear
-
 if has("syntax_on")
   syntax reset
 endif
-
-let g:colors_name = "vim-hardaway"
 
 " Color palette {{{
 
@@ -353,4 +353,3 @@ highlight shEchoQuote      ctermfg=198 guifg=deeppink1
 
 " }}}
 
-let g:airline_theme = "vim_hardaway"

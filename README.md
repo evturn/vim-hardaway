@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://evturn.com/static/vim-hardaway.png">
+</p>
+
 ```
  __   __   ________  ___ __ __                                                        
 /_/\ /_/\ /_______/\/__//_//_/\     
