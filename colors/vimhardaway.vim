@@ -83,7 +83,7 @@ highlight Include      ctermfg=49              guifg=mediumspringgreen
 highlight Label        ctermfg=198             guifg=deeppink1
 highlight LineNr       ctermfg=240             guifg=grey20
 highlight Macro        ctermfg=48              guifg=springgreen1
-highlight MatchParen               ctermbg=237 guifg=none              guibg=grey23
+highlight MatchParen               ctermbg=237                         guibg=grey23
 highlight ModeMsg      ctermfg=49  ctermbg=233 guifg=mediumspringgreen guibg=grey7
 highlight MoreMsg      ctermfg=49  ctermbg=233 guifg=mediumspringgreen guibg=grey7
 highlight NonText      ctermfg=235             guifg=grey15
