@@ -75,11 +75,11 @@ highlight Exception    ctermfg=196             guifg=red1
 highlight Float        ctermfg=141             guifg=mediumpurple1
 highlight FoldColumn   ctermfg=240 ctermbg=233 guifg=grey35            guibg=grey7
 highlight Folded       ctermfg=240 ctermbg=235 guifg=grey35            guibg=grey15
-highlight Function     ctermfg=198             guifg=deeppink1
+highlight Function     ctermfg=190             guifg=yellow2
 highlight Identifier   ctermfg=45              guifg=turquoise2
 highlight Ignore       ctermfg=244 ctermbg=233 guifg=grey50            guibg=grey7
 highlight IncSearch    ctermfg=0   ctermbg=190 guifg=black             guibg=yellow2 gui=italic cterm=italic
-highlight Include      ctermfg=49              guifg=mediumspringgreen
+highlight Include      ctermfg=198             guifg=deeppink1
 highlight Label        ctermfg=198             guifg=deeppink1
 highlight LineNr       ctermfg=240             guifg=grey20
 highlight Macro        ctermfg=48              guifg=springgreen1
