@@ -50,7 +50,7 @@ endif
 
 " Base {{{
 
-highlight Boolean      ctermfg=63              guifg=royalblue1
+highlight Boolean      ctermfg=33              guifg=dodgerblue1
 highlight Character    ctermfg=15              guifg=white
 highlight ColorColumn  ctermfg=240 ctermbg=232 guifg=grey35            guibg=grey3
 highlight Comment      ctermfg=8               guifg=grey
@@ -86,8 +86,8 @@ highlight Macro        ctermfg=48              guifg=springgreen1
 highlight MatchParen               ctermbg=237                         guibg=grey23
 highlight ModeMsg      ctermfg=49  ctermbg=233 guifg=mediumspringgreen guibg=grey7
 highlight MoreMsg      ctermfg=49  ctermbg=233 guifg=mediumspringgreen guibg=grey7
-highlight NonText      ctermfg=235             guifg=grey15
-highlight Normal                                                       guibg=grey7
+highlight NonText      ctermfg=236             guifg=grey20
+" highlight Normal
 highlight Number       ctermfg=141             guifg=mediumpurple1
 highlight Operator     ctermfg=198             guifg=deeppink1
 " PMenu
@@ -318,6 +318,13 @@ highlight netrwPlain    ctermfg=81              guifg=steelblue1
 
 " }}}
 
+" Python {{{
+
+highlight pythonBuiltinFunc ctermfg=81  guifg=steelblue1
+highlight pythonBuiltinObj  ctermfg=81  guifg=steelblue1
+
+" }}}
+
 " XML / JSX {{{
 
 highlight xmlTag     ctermfg=198                guifg=deeppink1
@@ -352,4 +359,3 @@ highlight shEcho           ctermfg=198 guifg=deeppink1
 highlight shEchoQuote      ctermfg=198 guifg=deeppink1
 
 " }}}
-
