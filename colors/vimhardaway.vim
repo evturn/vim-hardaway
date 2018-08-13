@@ -42,7 +42,8 @@ endif
 " Color: grey11            #1c1c1c      234      DarkGrey
 " Color: grey15            #262626      235      DarkGrey
 " Color: grey20            #303030      236      DarkGrey
-" Color: grey23            #444444      237      DarkGrey
+" Color: grey23            #3a3a3a      237      DarkGrey
+" Color: grey27            #444444      238      DarkGrey
 " Color: grey35            #585858      240      Grey
 " Color: grey50            #808080      244      LightGrey
 
@@ -53,21 +54,21 @@ endif
 highlight Boolean      ctermfg=33              guifg=dodgerblue1
 highlight Character    ctermfg=15              guifg=white
 highlight ColorColumn  ctermfg=240 ctermbg=232 guifg=grey35            guibg=grey3
-highlight Comment      ctermfg=8               guifg=grey
-" Conceal
+highlight Comment      ctermfg=238             guifg=grey27
+highlight Conceal      ctermfg=14  ctermbg=233 guifg=aqua              guibg=grey7
 highlight Conditional  ctermfg=198             guifg=deeppink1
 highlight Constant     ctermfg=15              guifg=white
-highlight Cursor       ctermfg=49              guifg=mediumspringgreen guibg=steelblue1
-highlight CursorIM     ctermfg=49              guifg=mediumspringgreen guibg=steelblue1
-highlight CursorColumn ctermbg=233             guibg=grey7             gui=none cterm=none 
-highlight CursorLine   ctermbg=233             guibg=grey7             gui=none cterm=none
+highlight Cursor       ctermfg=0   ctermbg=81  guifg=black             guibg=steelblue1
+highlight CursorIM     ctermfg=0   ctermbg=81  guifg=black             guibg=steelblue1
+highlight CursorColumn             ctermbg=233                         guibg=grey7 gui=none cterm=none
+highlight CursorLine               ctermbg=233                         guibg=grey7 gui=none cterm=none
 highlight Debug        ctermfg=4               guifg=navy
 highlight Define       ctermfg=198             guifg=deeppink1
 highlight Delimiter    ctermfg=14              guifg=aqua
 highlight DiffAdd      ctermfg=49  ctermbg=235 guifg=mediumspringgreen guibg=grey15
 highlight DiffChange   ctermfg=49  ctermbg=235 guifg=mediumspringgreen guibg=grey15
-highlight DiffDelete   ctermfg=198 ctermbg=235 guifg=deeppink1         guibg=grey15 gui=italic cterm=italic 
-highlight DiffText     ctermfg=49  ctermbg=235 guifg=mediumspringgreen guibg=grey15 
+highlight DiffDelete   ctermfg=198 ctermbg=235 guifg=deeppink1         guibg=grey15 gui=italic cterm=italic
+highlight DiffText     ctermfg=49  ctermbg=235 guifg=mediumspringgreen guibg=grey15
 highlight Directory    ctermfg=81              guifg=steelblue1
 highlight Error        ctermfg=202 ctermbg=233 guifg=orangered1        guibg=grey7
 highlight ErrorMsg     ctermfg=49  ctermbg=233 guifg=mediumspringgreen guibg=grey7
@@ -87,7 +88,7 @@ highlight MatchParen               ctermbg=237                         guibg=gre
 highlight ModeMsg      ctermfg=49  ctermbg=233 guifg=mediumspringgreen guibg=grey7
 highlight MoreMsg      ctermfg=49  ctermbg=233 guifg=mediumspringgreen guibg=grey7
 highlight NonText      ctermfg=236             guifg=grey20
-" highlight Normal
+" highlight Normal       ctermfg=14  ctermbg=233 guifg=aqua              guibg=grey7
 highlight Number       ctermfg=141             guifg=mediumpurple1
 highlight Operator     ctermfg=198             guifg=deeppink1
 " PMenu
@@ -95,19 +96,19 @@ highlight Operator     ctermfg=198             guifg=deeppink1
 " PMenuSbar
 " PMenuThumb
 highlight PreCondit    ctermfg=33              guifg=dodgerblue1
-highlight PreProc      ctermfg=49              guifg=mediumspringgreen 
+highlight PreProc      ctermfg=49              guifg=mediumspringgreen
 highlight Question     ctermfg=49              guifg=mediumspringgreen guibg=grey7
 highlight Repeat       ctermfg=198             guifg=deeppink1
 highlight Search       ctermfg=0   ctermbg=190 guifg=black             guibg=yellow2
 " SignColumn
 highlight Special      ctermfg=81              guifg=steelblue1
 highlight SpecialChar  ctermfg=33              guifg=dodgerblue1
-highlight SpecialComment ctermfg=81            guifg=steelblue1
+highlight SpecialComment ctermfg=238           guifg=grey27
 highlight SpecialKey   ctermfg=235             guifg=grey15
-" SpellBad
+highlight SpellBad                 ctermbg=235                         guibg=grey15
 " SpellLocal
-" SpellCap
-" SpellRare
+highlight SpellCap     ctermfg=190             guifg=yellow2
+highlight SpellRare                ctermbg=235                         guibg=grey15
 highlight StatusLine   ctermfg=235             guifg=grey17
 highlight StatusLineNC ctermfg=235             guifg=grey10
 highlight Statement    ctermfg=198             guifg=deeppink1
@@ -123,7 +124,7 @@ highlight Todo         ctermfg=81  ctermbg=233 guifg=steelblue1        guibg=gre
 highlight VertSplit    ctermfg=240             guifg=grey7             guibg=grey7 cterm=none
 " Visual
 " VisualNOS
-" WarningMsg
+highlight WarningMsg                                                   guibg=grey15
 " WildMenu
 highlight keyword      ctermfg=81              guifg=steelblue1        gui=bold cterm=bold
 highlight type         ctermfg=81              guifg=steelblue1
@@ -167,7 +168,7 @@ highlight cssValueAngle             ctermfg=14  guifg=aqua
 highlight cssValueFrequency         ctermfg=14  guifg=aqua
 highlight cssValueInteger           ctermfg=141 guifg=mediumpurple1
 highlight cssValueLength            ctermfg=141 guifg=mediumpurple1
-highlight cssValueNumber            ctermfg=141 guifg=mediumpurple1 
+highlight cssValueNumber            ctermfg=141 guifg=mediumpurple1
 highlight cssValueTime              ctermfg=14  guifg=aqua
 highlight cssVariable               ctermfg=11  guifg=yellow
 highlight cssVariableValue          ctermfg=11  guifg=yellow
@@ -219,7 +220,7 @@ highlight hsOperator                ctermfg=198 guifg=deeppink1
 highlight hsOrdering                ctermfg=81  guifg=steelblue1
 highlight hsPragma                  ctermfg=11  guifg=yellow       cterm=italic gui=italic
 highlight hsSpecialChar             ctermfg=11  guifg=yellow
-highlight hsSpecialCharError        ctermfg=202 guifg=orangered1 
+highlight hsSpecialCharError        ctermfg=202 guifg=orangered1
 highlight hsStatement               ctermfg=81  guifg=steelblue1
 highlight hsString                  ctermfg=49  guifg=mediumspringgreen
 highlight hsStructure               ctermfg=198 guifg=deeppink1
@@ -245,6 +246,7 @@ highlight jsClassFuncName           ctermfg=190 guifg=yellow2       cterm=italic
 highlight jsClassKeyword            ctermfg=81  guifg=steelblue1
 highlight jsClassMethodType         ctermfg=198 guifg=deeppink1
 highlight jsClassProperty           ctermfg=190 guifg=yellow2
+highlight jsComment                 ctermfg=238 guifg=grey27
 highlight jsDecorator               ctermfg=198 guifg=deeppink1
 highlight jsDecoratorFunction       ctermfg=81  guifg=steelblue1
 highlight jsDestructuringAssignment ctermfg=14  guifg=aqua
@@ -292,13 +294,13 @@ highlight jsTernaryIfOperator       ctermfg=198 guifg=deeppink1
 highlight jsThis                    ctermfg=81  guifg=steelblue1
 highlight jsUndefined               ctermfg=81  guifg=steelblue1
 
-" }}} 
+" }}}
 
 " NERDTree {{{
 
 highlight NERDTreeCWD               ctermfg=49  guifg=mediumspringgreen cterm=italic gui=italic
 highlight NERDTREEDir               ctermfg=49  guifg=mediumspringgreen cterm=italic gui=italic
-highlight NERDTreeFile              ctermfg=81  guifg=steelblue1 
+highlight NERDTreeFile              ctermfg=81  guifg=steelblue1
 highlight NERDTreeClosable          ctermfg=11  guifg=yellow
 highlight NERDTreeOpenable          ctermfg=81  guifg=steelblue1
 highlight NERDTreeDirSlash          ctermfg=81  guifg=steelblue1
@@ -320,8 +322,11 @@ highlight netrwPlain    ctermfg=81              guifg=steelblue1
 
 " Python {{{
 
-highlight pythonBuiltinFunc ctermfg=81  guifg=steelblue1
-highlight pythonBuiltinObj  ctermfg=81  guifg=steelblue1
+highlight pythonBuiltinFunc  ctermfg=81              guifg=steelblue1
+highlight pythonBuiltinObj   ctermfg=81              guifg=steelblue1
+highlight pythonStatement    ctermfg=81              guifg=steelblue1
+highlight pythonQuotes       ctermfg=238             guifg=grey27
+highlight pythonTripleQuotes ctermfg=238             guifg=grey27
 
 " }}}
 
