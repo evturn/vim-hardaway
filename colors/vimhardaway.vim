@@ -55,7 +55,7 @@ endif
 highlight Boolean        ctermfg=33              guifg=#0087ff
 highlight Character      ctermfg=15              guifg=#ffffff
 highlight ColorColumn    ctermfg=240 ctermbg=232 guifg=#585858 guibg=#808080
-highlight Comment        ctermfg=238             guifg=#444444
+highlight Comment        ctermfg=240             guifg=#585858
 highlight Conceal        ctermfg=14  ctermbg=233 guifg=#00ffff guibg=#121212
 highlight Conditional    ctermfg=198             guifg=#ff0087
 highlight Constant       ctermfg=14              guifg=#00ffff
