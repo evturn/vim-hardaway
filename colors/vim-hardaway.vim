@@ -5,11 +5,11 @@
 " Maintainer:   Evan Turner <ev@evturn.com>
 " Repository:   https://github.com/evturn/vim-hardaway
 " License:      MIT
-" Last Updated: Apr 2018
+" Last Updated: Nov 2018
 " Note:         Zip it up and zip it out.
 
-let g:colors_name   = "vimhardaway"
-let g:airline_theme = "vimhardaway"
+let g:colors_name   = 'vim-hardaway'
+let g:airline_theme = 'vim_hardaway'
 
 set background=dark
 highlight clear
