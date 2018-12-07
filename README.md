@@ -31,11 +31,11 @@ colorscheme vim-hardaway
 * Extended syntax highlighting for less common filetypes (Haskell, PostCSS, netrw, NERDTREE)
 
 <p align="center">
-  <img src="https://evturn.com/static/vim-hardaway-screenshot.png">
+  <img src="./screenshots/vim-hardaway-screenshot.png">
 </p>
 
 <p align="center">
-  <img src="https://evturn.com/static/vim-hardaway.png">
+  <img src="./screenshots/vim-hardaway.png">
 </p>
 
 
